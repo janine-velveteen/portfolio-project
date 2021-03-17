@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-font: 'Playfair Display', serif;
+    --seconadry-font: 'Poppins', sans-serif;
+    --background-color: #F9F7FE;
+    --button-background: #6C63FF;
+}
+
+
+/* Hero Section */
+.hero{
+    
+    background: var(--background-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero h1 {
+    font-family: var(--primary-font);
+    font-size: 96px;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-family: var(--seconadry-font);
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.hero h3 {
+    font-family: var(--seconadry-font);
+    font-size: 24;
+    opacity: 70%;
+}
+
+.hero a {
+    background: var(--button-background);
+    border: 1px solid var(--button-background);
+    color: #FFF;
+    padding: 15px 30px;
+    margin-top: 40px;
+    cursor: pointer;
+    margin-bottom: 300px;
+}
+
+.hero a:hover {
+    background: var(--background-color);
+    color: var(--button-background);
+    transition: all 200ms ease-in-out;
+}
+
+.projects-section {
+    background: #fff;
+
+}
+
+.projects-section h2 {
+    font-family: var(--primary-font);
+    font-size: 64px;
+}
+
+.projects-section p {
+    font-family: var(--seconadry-font);
+    font-size: 16px;
+    opacity: 70%;
+}
+
+.projects-section img {
+    padding: 30px 100px;
+    background: var(--background-color);
+    display: flex;
+    margin: 20px;
+}
