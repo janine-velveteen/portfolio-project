@@ -15,6 +15,15 @@ a {
     text-decoration: none;
 }
 
+h1 {
+    color: black;
+    font-family: var(--primary-font);
+    font-weight: bold;
+}
+
+p {
+    font-family: var(--seconadry-font);
+}
 
 /* Hero Section */
 .hero{
@@ -25,38 +34,41 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    padding: 160px 20px;
 }
 .hero h1 {
-    font-family: var(--primary-font);
+    
     font-size: 96px;
     padding: 15px 20px;
-    text-align: center;
+    
+}
+
+.hero p {
+    
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
 }
 
 .hero h2 {
     font-family: var(--seconadry-font);
-    font-size: 36px;
-    font-weight: 700;
-    margin-top: 210px;
-}
-
-.hero h3 {
-    font-family: var(--seconadry-font);
     font-size: 24;
     opacity: 70%;
+    line-height: 2;
 }
 
-.hero a {
+.btn-branding {
     background: var(--button-background);
     border: 1px solid var(--button-background);
     color: #FFF;
+    font-size: 18px;
     padding: 15px 30px;
-    margin-top: 40px;
+    line-height: 27px;
     cursor: pointer;
-    margin-bottom: 300px;
 }
 
-.hero a:hover {
+.btn-branding:hover {
     background: var(--background-color);
     color: var(--button-background);
     transition: all 200ms ease-in-out;
