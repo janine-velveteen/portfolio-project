@@ -145,6 +145,38 @@ p {
   padding: 0;
 text-align: center;
     }
+
+    .about-container {
+        text-align: center;
+        padding: 0;
+    }
+}
+
+/*ABout Section */
+
+.about-container {
+    padding: 160px 20px;
+}
+
+.about-container-content {
+    margin: 30px;
+}
+
+.about-container h1 {
+    font-size: 64px;
+    font-weight: 700;
+}
+.about-container h2 {
+    font-family: var(--seconadry-font);
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+.about-container p {
+    font-family: var(--seconadry-font);
+    font-size: 16px;
+    opacity: 70%;
 }
 
 /*.work-inquiry {
@@ -199,17 +231,10 @@ text-align: center;
     margin-top: -50px;
 }
 
-.about-container h3 {
-    font-family: var(--seconadry-font);
-    font-size: 18px;
-    font-weight: bold;
-    
-}
+
 
 .about-container p {
-    font-family: var(--seconadry-font);
-    font-size: 16px;
-    opacity: 70%;
+    
 }
 
 .about-container a {
