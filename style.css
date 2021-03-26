@@ -184,6 +184,13 @@ text-align: center;
     opacity: 70%;
 }
 
+.project-image img {
+    
+    background: var(--background-color);
+}
+
+
+
 /*.work-inquiry {
     display: flex;
     background: var(--background-color);
