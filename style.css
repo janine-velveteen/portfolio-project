@@ -22,6 +22,10 @@ h1, h2, h3 {
     font-weight: bold;
 }
 
+h4 {
+    font-size: 36px;
+}
+
 p {
     font-family: var(--seconadry-font);
 }
@@ -102,7 +106,7 @@ nav ul {
     font-family: var(--seconadry-font);
     font-size: 24;
     opacity: 70%;
-    line-height: 2;
+    line-height: 1.5;
 }
 
 .btn-branding {
@@ -174,47 +178,7 @@ nav ul {
     padding: 50px 60px;
 }
 
-@media (max-width: 900px) {
-.hero {
-    padding: 80px 20px;
-}
-  
-.hero h1 {
-    font-size: 55px;
-    line-height: 2;
-}
- 
-.lower-hero h2 {
-    font-size: 44px;
-}
-.project-description {
-  padding: 0;
-text-align: center;
-    }
 
-    .container {
-        text-align: center;
-        padding: 0;
-    }
-
-    .logo {
-        max-width: 60px;
-        max-height: 60px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        margin-left: 10px;
-
-    }
-
-    .nav-links {
-        margin-right: 27px;
-        
-    }
-
-    nav a {
-        font-size: 14px;
-    }
-}
 
 /*ABout & Work Section */
 
@@ -259,6 +223,110 @@ text-align: center;
     font-size: 24px;
 }
 
+.contact-link a {
+    color: var(--button-background);
+    font-size: 20px;
+}
+
+
+/*Footer*/
+
+footer {
+    margin: 50px 0;
+}
+
+footer .contact-box {
+    background: var(--background-color);
+    padding: 30px 120px;
+    border-radius: 10px;
+}
+
+.contact-box h4 {
+    font-family: var(--primary-font);
+}
+
+footer .email-link {
+    color: #000;
+    font-size: 24px;
+    text-decoration: none;
+    font-family: var(--seconadry-font);
+}
+
+footer .email-link:hover {
+    color: var(--button-background);
+}
+
+footer .social-links a {
+    margin: 0 20px;
+    color: var(--button-background);
+    background-color: var(--background-color);
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 50%;
+}
+
+footer .social-links a:hover {
+    color: var(--background-color);
+    background-color: var(--button-background);
+    transition: all 100ms ease-in-out;
+}
+
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 900px) {
+    .hero {
+        padding: 80px 20px;
+    }
+      
+    .hero h1 {
+        font-size: 55px;
+        line-height: 2;
+    }
+     
+    .lower-hero h2 {
+        font-size: 44px;
+    }
+    .project-description {
+      padding: 0;
+    text-align: center;
+    }
+     .container {
+        text-align: center;
+        padding: 0;
+    }
+    
+    
+    .logo {
+        max-width: 60px;
+         max-height: 60px;
+         margin-top: 10px;
+        margin-bottom: 10px;
+         margin-left: 10px;
+    
+        }
+    
+        .nav-links {
+            margin-right: 27px;
+            
+        }
+    
+        nav a {
+            font-size: 14px;
+        }
+    
+        footer .contact-box {
+            padding: 30px;
+        }
+    .footer-email a {
+        font-size: 18px;
+    }
+
+    h4 {
+        font-size: 30px;
+    }
+    
+    }
 
 /*.work-inquiry {
     display: flex;
