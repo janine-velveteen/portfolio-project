@@ -7,6 +7,7 @@
 :root {
     --primary-font: 'Playfair Display', serif;
     --seconadry-font: 'Poppins', sans-serif;
+    --logo-font: 'Playfair Display SC', serif;
     --background-color: #F9F7FE;
     --button-background: #6C63FF;
 }
@@ -24,6 +25,51 @@ h1, h2, h3 {
 p {
     font-family: var(--seconadry-font);
 }
+
+/*NAV Section*/
+.logo {
+    padding: 5px;
+    max-width: 70px;
+    max-height: 70px;
+}
+nav {
+    padding: 10px 0;
+    
+}
+
+nav a {
+    font-family: var(--seconadry-font);
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    
+}
+
+nav a:hover {
+    color: var(--button-background);
+    transition: all 100ms ease-in-out;
+}
+
+
+
+nav li {
+    display: inline;
+    line-height: 65px;
+    margin-left: 15px;
+}
+
+nav li.active a {
+    color: var(--button-background);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+
 
 /* Hero Section */
 .hero{
@@ -150,12 +196,30 @@ text-align: center;
         text-align: center;
         padding: 0;
     }
+
+    .logo {
+        max-width: 60px;
+        max-height: 60px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+
+    }
+
+    .nav-links {
+        margin-right: 27px;
+        
+    }
+
+    nav a {
+        font-size: 14px;
+    }
 }
 
 /*ABout & Work Section */
 
 .content-container {
-    padding: 160px 20px;
+    padding: 70px 20px;
 }
 
 .content {
