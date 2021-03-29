@@ -168,38 +168,43 @@ nav ul {
     transition: all 200ms ease-in-out;
 }
 
-.lower-hero {
-    background: #fff;
-    min-width: 100vw;
+/*Skills Hero*/
+
+.skills-hero {
+    /*background: #fff;
+    min-width: 100vw;*/
+    
 
 }
 
-.lower-hero h3 {
-    font-family: var(--seconadry-font);
+.languages {
+    background: var(--background-color);
+}
+
+.skills-hero h3 {
+    font-family: var(--primary-font);
     font-weight: normal;
-    font-size: 18px;
+    font-size: 24px;
     
 }
 
-.lower-hero h2 {
-    font-family: var(--primary-font);
-    font-size: 64px;
-    color: black;
+.skills-hero h4 {
+    font-size: 20px;
+    
 }
 
-.lower-hero p {
+.skills-hero p {
     font-family: var(--seconadry-font);
-    font-size: 16px;
+    font-size: 18px;
     opacity: 70%;
     line-height: 30px;
 }
 
-.lower-hero img {
-    
-    background: var(--background-color);
-    
-    
+.languages-frameworks p {
+    margin-bottom: 45px;
 }
+
+
 
 .project-description {
     padding: 50px 60px;
@@ -253,6 +258,11 @@ nav ul {
 .contact-link a {
     color: var(--button-background);
     font-size: 20px;
+}
+
+.contact-link a:hover {
+    color: #4d48b9;
+    transition: all 100ms ease-in-out;
 }
 
 
