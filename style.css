@@ -94,6 +94,33 @@ nav ul {
     
 }
 
+.typed-text {
+    color: var(--button-background);
+}
+
+.cursor {
+    display: inline-block;
+    width: 3px;
+    background-color: #000;
+    opacity: 70%;
+    margin-left: 2px;
+    animation: blink 1s infinite;
+}
+
+
+
+@keyframes blink {
+    0% { background-color: #000; }
+    49% { background-color: #000; }
+    50% { background-color: transparent; }
+    99% { background-color: transparent; }
+    100% { background-color: #000; }
+}
+
+.cursor .typing {
+    animation: none;
+}
+
 .hero p {
     
     font-size: 36px;
@@ -106,6 +133,7 @@ nav ul {
     font-size: 24;
     opacity: 70%;
     line-height: 1.5;
+    overflow: hidden;
 }
 
 .btn-branding {
