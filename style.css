@@ -12,6 +12,11 @@
     --button-background: #6C63FF;
 }
 
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 a {
     text-decoration: none;
 }
@@ -79,6 +84,8 @@ nav ul {
     
     background: var(--background-color);
     min-height: 100vh;
+    max-width: 100%;
+    overflow-x: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -268,6 +275,15 @@ nav ul {
     color: #4d48b9;
     transition: all 100ms ease-in-out;
 }
+
+.contact-form input, textarea {
+    font-family: var(--seconadry-font);
+}
+
+.contact-form .submit {
+    width: 50%;
+}
+
 
 
 /*Footer*/
