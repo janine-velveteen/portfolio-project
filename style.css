@@ -177,15 +177,15 @@ nav ul {
 
 /*Skills Hero*/
 
-.skills-hero {
-    /*background: #fff;
-    min-width: 100vw;*/
-    
 
-}
 
 .languages {
     background: var(--background-color);
+}
+
+.skills-hero {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .skills-hero h3 {
